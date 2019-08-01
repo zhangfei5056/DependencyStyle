@@ -26,7 +26,7 @@ open class VCfromFrameworkB: UIViewController {
     }
 
     @objc func tapButton() {
-        print("你点击了此按钮")
+        print("this is VCB")
         click?()
     }
 }

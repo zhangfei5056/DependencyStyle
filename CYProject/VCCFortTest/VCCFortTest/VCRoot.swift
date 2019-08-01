@@ -1,4 +1,5 @@
 import UIKit
+import FrameworkA
 class VCRoot: UIViewController {
 
     //    var dependency: VCADependecyProtocol!
@@ -26,18 +27,13 @@ class VCRoot: UIViewController {
     @objc func tapButton() {
         print("你点击了此按钮")
         click?()
+//                let vc = VCABuilder.build(dependency: VCfromFrameworkADependecy()) {
+//                    print("🤡👉\("hello world")👈🤡")
+//                }
+
+        let vc = RouterMapping.shared.getVC(routerPath: .vca)
+        self.navigationController?.pushViewController(vc, animated: true)
+
     }
 
-    func ssome() {
-
-        //        let vc = VCABuilder.build(dependency: VCfromFrameworkADependecy()) {
-        //            print("🤡👉\("hello world")👈🤡")
-        //        }
-
-        //        let vc = VCABuilder.build {
-        //            print("🤡👉\("hello world")👈🤡")
-        //
-        //        }
-        //        let vc = VCfromFrameworkB()
-    }
 }

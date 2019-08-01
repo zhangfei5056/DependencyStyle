@@ -14,6 +14,7 @@
 		72CE721822EEE95A0045A18C /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE721722EEE95A0045A18C /* FrameworkB.framework */; };
 		72F51C7A22F2996C00A59CCC /* VCRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F51C7922F2996C00A59CCC /* VCRoot.swift */; };
 		72F51C7C22F299FF00A59CCC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F51C7B22F299FF00A59CCC /* File.swift */; };
+		72F51C8222F2C2D400A59CCC /* CYRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F51C8122F2C2D400A59CCC /* CYRouter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		72CE721722EEE95A0045A18C /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F51C7922F2996C00A59CCC /* VCRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRoot.swift; sourceTree = "<group>"; };
 		72F51C7B22F299FF00A59CCC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		72F51C8122F2C2D400A59CCC /* CYRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CYRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F51C8222F2C2D400A59CCC /* CYRouter.framework in Frameworks */,
 				72CE721822EEE95A0045A18C /* FrameworkB.framework in Frameworks */,
 				72CE721622EEE9560045A18C /* FrameworkA.framework in Frameworks */,
 			);
@@ -78,6 +81,7 @@
 		72CE71C422EEE6220045A18C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72F51C8122F2C2D400A59CCC /* CYRouter.framework */,
 				72CE721722EEE95A0045A18C /* FrameworkB.framework */,
 				72CE721522EEE9560045A18C /* FrameworkA.framework */,
 				72CE720F22EEE90F0045A18C /* FrameworkB.framework */,
