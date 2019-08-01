@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CYRouter
+import Router
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

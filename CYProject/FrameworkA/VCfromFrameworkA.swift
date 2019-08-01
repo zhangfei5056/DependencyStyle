@@ -1,6 +1,6 @@
 
 import UIKit
-import CYRouter
+import Router
 open class VCfromFrameworkA: UIViewController {
 
     var dependency: VCADependecyProtocol!

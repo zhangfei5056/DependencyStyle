@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		72CE71AD22EEDAF70045A18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CE71AC22EEDAF70045A18C /* AppDelegate.swift */; };
 		72CE71B422EEDAF70045A18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CE71B322EEDAF70045A18C /* Assets.xcassets */; };
-		72CE721622EEE9560045A18C /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE721522EEE9560045A18C /* FrameworkA.framework */; };
-		72CE721822EEE95A0045A18C /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE721722EEE95A0045A18C /* FrameworkB.framework */; };
 		72F51C7A22F2996C00A59CCC /* AppRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F51C7922F2996C00A59CCC /* AppRootViewController.swift */; };
 		72F51C7C22F299FF00A59CCC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F51C7B22F299FF00A59CCC /* File.swift */; };
-		72F51C8222F2C2D400A59CCC /* CYRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F51C8122F2C2D400A59CCC /* CYRouter.framework */; };
+		72F8378C22F2DAF30026EA4B /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8378B22F2DAF30026EA4B /* FrameworkA.framework */; };
+		72F8378E22F2DAF60026EA4B /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8378D22F2DAF60026EA4B /* FrameworkB.framework */; };
+		72F8379022F2DAF90026EA4B /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8378F22F2DAF90026EA4B /* Router.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,15 +21,11 @@
 		72CE71AC22EEDAF70045A18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72CE71B322EEDAF70045A18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CE71B822EEDAF70045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72CE71C522EEE6220045A18C /* CYVCA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CYVCA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72CE71DE22EEE7250045A18C /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72CE720D22EEE9050045A18C /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72CE720F22EEE90F0045A18C /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72CE721522EEE9560045A18C /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72CE721722EEE95A0045A18C /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F51C7922F2996C00A59CCC /* AppRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppRootViewController.swift; path = ../../App/App/AppRootViewController.swift; sourceTree = "<group>"; };
 		72F51C7B22F299FF00A59CCC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../../App/App/File.swift; sourceTree = "<group>"; };
-		72F51C8122F2C2D400A59CCC /* CYRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CYRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F8378B22F2DAF30026EA4B /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F8378D22F2DAF60026EA4B /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F8378F22F2DAF90026EA4B /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +33,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F51C8222F2C2D400A59CCC /* CYRouter.framework in Frameworks */,
-				72CE721822EEE95A0045A18C /* FrameworkB.framework in Frameworks */,
-				72CE721622EEE9560045A18C /* FrameworkA.framework in Frameworks */,
+				72F8379022F2DAF90026EA4B /* Router.framework in Frameworks */,
+				72F8378E22F2DAF60026EA4B /* FrameworkB.framework in Frameworks */,
+				72F8378C22F2DAF30026EA4B /* FrameworkA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +74,9 @@
 		72CE71C422EEE6220045A18C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72F51C8122F2C2D400A59CCC /* CYRouter.framework */,
-				72CE721722EEE95A0045A18C /* FrameworkB.framework */,
-				72CE721522EEE9560045A18C /* FrameworkA.framework */,
-				72CE720F22EEE90F0045A18C /* FrameworkB.framework */,
-				72CE720D22EEE9050045A18C /* FrameworkA.framework */,
-				72CE71DE22EEE7250045A18C /* FrameworkA.framework */,
-				72CE71C522EEE6220045A18C /* CYVCA.framework */,
+				72F8378F22F2DAF90026EA4B /* Router.framework */,
+				72F8378D22F2DAF60026EA4B /* FrameworkB.framework */,
+				72F8378B22F2DAF30026EA4B /* FrameworkA.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
