@@ -2,7 +2,7 @@ import FrameworkA
 import FrameworkB
 import Router
 
-public class RouterMapping: RouterDelegate {
+public class RouterMapping: RouterMapDelegate {
 
     public static let shared  = RouterMapping()
 

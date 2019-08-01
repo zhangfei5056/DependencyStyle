@@ -1,6 +1,6 @@
 import UIKit
 
-public protocol RouterDelegate: class {
+public protocol RouterMapDelegate: class {
     func viewControllerFrom(routerPath: RouterPath) -> UIViewController
 }
 
@@ -13,7 +13,7 @@ public class Router {
     public static let shared = Router()
     private init() {}
 
-    public weak var delegate: RouterDelegate?
+    public weak var delegate: RouterMapDelegate?
 
     public func getVCFrom(routerPath: RouterPath) -> UIViewController {
         if let vc = delegate?.viewControllerFrom(routerPath: routerPath) {
