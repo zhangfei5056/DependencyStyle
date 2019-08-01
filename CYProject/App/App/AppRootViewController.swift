@@ -1,5 +1,5 @@
 import UIKit
-import FrameworkA
+import RouterMap
 class AppRootViewController: UIViewController {
 
     //    var dependency: VCADependecyProtocol!
