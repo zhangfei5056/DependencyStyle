@@ -1,6 +1,6 @@
 import UIKit
 import FrameworkA
-class VCRoot: UIViewController {
+class AppRootViewController: UIViewController {
 
     //    var dependency: VCADependecyProtocol!
     public var click: (()->Void)?
