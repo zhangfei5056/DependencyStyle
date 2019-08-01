@@ -1,13 +1,5 @@
-//
-//  AppDelegate.swift
-//  VCCFortTest
-//
-//  Created by Yuan Cao on 2019/7/29.
-//  Copyright © 2019 Yuan Cao. All rights reserved.
-//
-
 import UIKit
-import Router
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,25 +14,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-import FrameworkA
-import FrameworkB
-
-class RouterMapping: RouterDelegate {
-
-    public static let shared  = RouterMapping()
-
-    private init() {
-        Router.shared.delegate = self
-    }
-
-    // MARK: - RouterDelegate
-    func getVC(routerPath: RouterPath) -> UIViewController {
-        switch routerPath {
-        case .vca:
-            return VCfromFrameworkA()
-        case .vcb:
-            return VCfromFrameworkB()
-        }
-    }
-
-}

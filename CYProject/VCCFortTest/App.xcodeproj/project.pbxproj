@@ -14,6 +14,7 @@
 		72F8378C22F2DAF30026EA4B /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8378B22F2DAF30026EA4B /* FrameworkA.framework */; };
 		72F8378E22F2DAF60026EA4B /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8378D22F2DAF60026EA4B /* FrameworkB.framework */; };
 		72F8379022F2DAF90026EA4B /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8378F22F2DAF90026EA4B /* Router.framework */; };
+		72F8379422F2DC780026EA4B /* RouterMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F8379322F2DC780026EA4B /* RouterMapping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		72F8378B22F2DAF30026EA4B /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F8378D22F2DAF60026EA4B /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F8378F22F2DAF90026EA4B /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F8379322F2DC780026EA4B /* RouterMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterMapping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				72CE71AC22EEDAF70045A18C /* AppDelegate.swift */,
 				72F51C7922F2996C00A59CCC /* AppRootViewController.swift */,
+				72F8379322F2DC780026EA4B /* RouterMapping.swift */,
 				72CE71B322EEDAF70045A18C /* Assets.xcassets */,
 				72CE71B822EEDAF70045A18C /* Info.plist */,
 				72F51C7B22F299FF00A59CCC /* File.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72F51C7A22F2996C00A59CCC /* AppRootViewController.swift in Sources */,
+				72F8379422F2DC780026EA4B /* RouterMapping.swift in Sources */,
 				72F51C7C22F299FF00A59CCC /* File.swift in Sources */,
 				72CE71AD22EEDAF70045A18C /* AppDelegate.swift in Sources */,
 			);

@@ -52,7 +52,7 @@ open class VCfromFrameworkA: UIViewController {
         print("this is VCA")
         click?()
         let router = Router.shared
-        let vc = router.getMeTheFuxkVC(routerPath: .vcb)
+        let vc = router.getVCFrom(routerPath: .vcb)
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
