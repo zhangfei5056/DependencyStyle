@@ -33,37 +33,3 @@ public class RouterUtils {
     return rootViewController
   }
 }
-
-
-
-//public typealias  RouterParameter = [String: Any]
-//public protocol Routable {
-//  /**
-//   类的初始化方法
-//   - params 传参字典
-//   */
-//  static func initWithParams(params: RouterParameter?) -> UIViewController
-//}
-
-
-open class Router {
-  
-  open class func openTel(_ phone:String) {
-    if let url = URL(string: "tel://\(phone)") {
-      UIApplication.shared.openURL(url)
-    }
-  }
-  
-  open class func open(_ path:RouterPathable , present: Bool = false , animated: Bool = true , presentComplete: (()->Void)? = nil){
-    if let cls = path.any as? Routable.Type {
-      let vc = cls.initWithParams(params: path.params)
-      vc.hidesBottomBarWhenPushed = true
-      let topViewController = RouterUtils.currentTopViewController()
-      if topViewController?.navigationController != nil && !present {
-        topViewController?.navigationController?.pushViewController(vc, animated: animated)
-      }else{
-        topViewController?.present(vc, animated: animated , completion: presentComplete)
-      }
-    }
-  }
-}

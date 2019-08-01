@@ -16,6 +16,7 @@
 		72CE71EE22EEE75B0045A18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CE71ED22EEE75B0045A18C /* Assets.xcassets */; };
 		72CE71F122EEE75B0045A18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CE71EF22EEE75B0045A18C /* LaunchScreen.storyboard */; };
 		72CE721A22EEEA490045A18C /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE71D122EEE6700045A18C /* FrameworkA.framework */; };
+		72F51C8022F2C01500A59CCC /* CYRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F51C7F22F2C01500A59CCC /* CYRouter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		72CE71ED22EEE75B0045A18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CE71F022EEE75B0045A18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72CE71F222EEE75B0045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F51C7F22F2C01500A59CCC /* CYRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CYRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F51C8022F2C01500A59CCC /* CYRouter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +101,7 @@
 		72CE721922EEEA490045A18C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72F51C7F22F2C01500A59CCC /* CYRouter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

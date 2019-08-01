@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CYRouter
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +18,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = vc
         self.window?.makeKeyAndVisible()
         return true
+    }
+
+}
+
+import FrameworkA
+import FrameworkB
+
+class RouterMapping: RouterDelegate {
+
+    public static let shared  = RouterMapping()
+
+    private init() {
+        Router.shared.delegate = self
+    }
+
+    // MARK: - RouterDelegate
+    func getVC(routerPath: RouterPath) -> UIViewController {
+        switch routerPath {
+        case .vca:
+            return VCfromFrameworkA()
+        case .vcb:
+            return VCfromFrameworkB()
+        }
     }
 
 }
