@@ -9,7 +9,7 @@ open class VCfromFrameworkA: UIViewController {
     open override func viewDidLoad() {
         self.view.backgroundColor = dependency.colorDependency.getBgColor()
         let button = UIButton()
-        button.setTitle("hello world", for: .normal)
+        button.setTitle("VCA...", for: .normal)
         button.setTitleColor(dependency.colorDependency.getColor(), for: .normal)
         button.titleLabel?.font = dependency.fontDependency.getFont()
         button.translatesAutoresizingMaskIntoConstraints = false

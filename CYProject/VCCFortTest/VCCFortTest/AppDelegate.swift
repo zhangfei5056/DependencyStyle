@@ -8,7 +8,7 @@
 
 import UIKit
 import FrameworkA
-//import FrameworkB
+import FrameworkB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,9 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            print("🤡👉\("hello world")👈🤡")
 //        }
 
-        let vc = VCABuilder.build {
-            print("🤡👉\("hello world")👈🤡")
-        }
+//        let vc = VCABuilder.build {
+//            print("🤡👉\("hello world")👈🤡")
+//
+//        }
+        let vc = VCfromFrameworkB()
         self.window = UIWindow()
         self.window?.rootViewController = vc
         self.window?.makeKeyAndVisible()
