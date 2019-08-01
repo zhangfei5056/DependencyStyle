@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:VCCFortTest/VCCFortTest.xcodeproj">
+      location = "group:/Users/yucao/Project/Github/DependencyStyle/CYProject/VCCFortTest/App.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:FrameworkB/FrameworkB.xcodeproj">
@@ -11,6 +11,6 @@
       location = "group:FrameworkA/FrameworkA.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:CYRouter/CYRouter.xcodeproj">
+      location = "group:/Users/yucao/Project/Github/DependencyStyle/CYProject/CYRouter/Router.xcodeproj">
    </FileRef>
 </Workspace>

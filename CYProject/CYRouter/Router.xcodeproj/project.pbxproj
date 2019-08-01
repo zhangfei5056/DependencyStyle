@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72CE706322EECD080045A18C /* CYRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE705922EECD080045A18C /* CYRouter.framework */; };
+		72CE706322EECD080045A18C /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE705922EECD080045A18C /* Router.framework */; };
 		72CE706822EECD080045A18C /* CYRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CE706722EECD080045A18C /* CYRouterTests.swift */; };
 		72CE706A22EECD080045A18C /* CYRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CE705C22EECD080045A18C /* CYRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72CE71BF22EEDFDD0045A18C /* RouterUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CE71BE22EEDFDD0045A18C /* RouterUtils.swift */; };
@@ -25,10 +25,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		72CE705922EECD080045A18C /* CYRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CYRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CE705922EECD080045A18C /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE705C22EECD080045A18C /* CYRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYRouter.h; sourceTree = "<group>"; };
 		72CE705D22EECD080045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72CE706222EECD080045A18C /* CYRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CE706222EECD080045A18C /* RouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE706722EECD080045A18C /* CYRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYRouterTests.swift; sourceTree = "<group>"; };
 		72CE706922EECD080045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72CE71BE22EEDFDD0045A18C /* RouterUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterUtils.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CE706322EECD080045A18C /* CYRouter.framework in Frameworks */,
+				72CE706322EECD080045A18C /* Router.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +69,8 @@
 		72CE705A22EECD080045A18C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72CE705922EECD080045A18C /* CYRouter.framework */,
-				72CE706222EECD080045A18C /* CYRouterTests.xctest */,
+				72CE705922EECD080045A18C /* Router.framework */,
+				72CE706222EECD080045A18C /* RouterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		72CE705822EECD080045A18C /* CYRouter */ = {
+		72CE705822EECD080045A18C /* Router */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72CE706D22EECD080045A18C /* Build configuration list for PBXNativeTarget "CYRouter" */;
+			buildConfigurationList = 72CE706D22EECD080045A18C /* Build configuration list for PBXNativeTarget "Router" */;
 			buildPhases = (
 				72CE705422EECD080045A18C /* Headers */,
 				72CE705522EECD080045A18C /* Sources */,
@@ -131,14 +131,14 @@
 			);
 			dependencies = (
 			);
-			name = CYRouter;
+			name = Router;
 			productName = CYRouter;
-			productReference = 72CE705922EECD080045A18C /* CYRouter.framework */;
+			productReference = 72CE705922EECD080045A18C /* Router.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		72CE706122EECD080045A18C /* CYRouterTests */ = {
+		72CE706122EECD080045A18C /* RouterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72CE707022EECD080045A18C /* Build configuration list for PBXNativeTarget "CYRouterTests" */;
+			buildConfigurationList = 72CE707022EECD080045A18C /* Build configuration list for PBXNativeTarget "RouterTests" */;
 			buildPhases = (
 				72CE705E22EECD080045A18C /* Sources */,
 				72CE705F22EECD080045A18C /* Frameworks */,
@@ -149,9 +149,9 @@
 			dependencies = (
 				72CE706522EECD080045A18C /* PBXTargetDependency */,
 			);
-			name = CYRouterTests;
+			name = RouterTests;
 			productName = CYRouterTests;
-			productReference = 72CE706222EECD080045A18C /* CYRouterTests.xctest */;
+			productReference = 72CE706222EECD080045A18C /* RouterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72CE705322EECD080045A18C /* Build configuration list for PBXProject "CYRouter" */;
+			buildConfigurationList = 72CE705322EECD080045A18C /* Build configuration list for PBXProject "Router" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,8 +185,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72CE705822EECD080045A18C /* CYRouter */,
-				72CE706122EECD080045A18C /* CYRouterTests */,
+				72CE705822EECD080045A18C /* Router */,
+				72CE706122EECD080045A18C /* RouterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,7 +231,7 @@
 /* Begin PBXTargetDependency section */
 		72CE706522EECD080045A18C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72CE705822EECD080045A18C /* CYRouter */;
+			target = 72CE705822EECD080045A18C /* Router */;
 			targetProxy = 72CE706422EECD080045A18C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72CE705322EECD080045A18C /* Build configuration list for PBXProject "CYRouter" */ = {
+		72CE705322EECD080045A18C /* Build configuration list for PBXProject "Router" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CE706B22EECD080045A18C /* Debug */,
@@ -458,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72CE706D22EECD080045A18C /* Build configuration list for PBXNativeTarget "CYRouter" */ = {
+		72CE706D22EECD080045A18C /* Build configuration list for PBXNativeTarget "Router" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CE706E22EECD080045A18C /* Debug */,
@@ -467,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72CE707022EECD080045A18C /* Build configuration list for PBXNativeTarget "CYRouterTests" */ = {
+		72CE707022EECD080045A18C /* Build configuration list for PBXNativeTarget "RouterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CE707122EECD080045A18C /* Debug */,

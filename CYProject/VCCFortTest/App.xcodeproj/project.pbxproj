@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		72CE71AD22EEDAF70045A18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CE71AC22EEDAF70045A18C /* AppDelegate.swift */; };
 		72CE71B422EEDAF70045A18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CE71B322EEDAF70045A18C /* Assets.xcassets */; };
-		72CE71B722EEDAF70045A18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CE71B522EEDAF70045A18C /* LaunchScreen.storyboard */; };
 		72CE721622EEE9560045A18C /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE721522EEE9560045A18C /* FrameworkA.framework */; };
 		72CE721822EEE95A0045A18C /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE721722EEE95A0045A18C /* FrameworkB.framework */; };
 		72F51C7A22F2996C00A59CCC /* VCRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F51C7922F2996C00A59CCC /* VCRoot.swift */; };
@@ -18,10 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		72CE71A922EEDAF70045A18C /* VCCFortTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCCFortTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CE71A922EEDAF70045A18C /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE71AC22EEDAF70045A18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72CE71B322EEDAF70045A18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		72CE71B622EEDAF70045A18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72CE71B822EEDAF70045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72CE71C522EEE6220045A18C /* CYVCA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CYVCA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE71DE22EEE7250045A18C /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,8 +27,8 @@
 		72CE720F22EEE90F0045A18C /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE721522EEE9560045A18C /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE721722EEE95A0045A18C /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72F51C7922F2996C00A59CCC /* VCRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRoot.swift; sourceTree = "<group>"; };
-		72F51C7B22F299FF00A59CCC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		72F51C7922F2996C00A59CCC /* VCRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VCRoot.swift; path = ../../App/App/VCRoot.swift; sourceTree = "<group>"; };
+		72F51C7B22F299FF00A59CCC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../../App/App/File.swift; sourceTree = "<group>"; };
 		72F51C8122F2C2D400A59CCC /* CYRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CYRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,7 +58,7 @@
 		72CE71AA22EEDAF70045A18C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72CE71A922EEDAF70045A18C /* VCCFortTest.app */,
+				72CE71A922EEDAF70045A18C /* App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +69,6 @@
 				72CE71AC22EEDAF70045A18C /* AppDelegate.swift */,
 				72F51C7922F2996C00A59CCC /* VCRoot.swift */,
 				72CE71B322EEDAF70045A18C /* Assets.xcassets */,
-				72CE71B522EEDAF70045A18C /* LaunchScreen.storyboard */,
 				72CE71B822EEDAF70045A18C /* Info.plist */,
 				72F51C7B22F299FF00A59CCC /* File.swift */,
 			);
@@ -95,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72CE71A822EEDAF70045A18C /* VCCFortTest */ = {
+		72CE71A822EEDAF70045A18C /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72CE71BB22EEDAF70045A18C /* Build configuration list for PBXNativeTarget "VCCFortTest" */;
+			buildConfigurationList = 72CE71BB22EEDAF70045A18C /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				72CE71A522EEDAF70045A18C /* Sources */,
 				72CE71A622EEDAF70045A18C /* Frameworks */,
@@ -107,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = VCCFortTest;
+			name = App;
 			productName = VCCFortTest;
-			productReference = 72CE71A922EEDAF70045A18C /* VCCFortTest.app */;
+			productReference = 72CE71A922EEDAF70045A18C /* App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72CE71A422EEDAF70045A18C /* Build configuration list for PBXProject "VCCFortTest" */;
+			buildConfigurationList = 72CE71A422EEDAF70045A18C /* Build configuration list for PBXProject "App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72CE71A822EEDAF70045A18C /* VCCFortTest */,
+				72CE71A822EEDAF70045A18C /* App */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +147,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CE71B722EEDAF70045A18C /* LaunchScreen.storyboard in Resources */,
 				72CE71B422EEDAF70045A18C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,17 +165,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		72CE71B522EEDAF70045A18C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72CE71B622EEDAF70045A18C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		72CE71B922EEDAF70045A18C /* Debug */ = {
@@ -335,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72CE71A422EEDAF70045A18C /* Build configuration list for PBXProject "VCCFortTest" */ = {
+		72CE71A422EEDAF70045A18C /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CE71B922EEDAF70045A18C /* Debug */,
@@ -344,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72CE71BB22EEDAF70045A18C /* Build configuration list for PBXNativeTarget "VCCFortTest" */ = {
+		72CE71BB22EEDAF70045A18C /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CE71BC22EEDAF70045A18C /* Debug */,
