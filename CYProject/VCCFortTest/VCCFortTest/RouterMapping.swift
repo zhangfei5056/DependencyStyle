@@ -14,7 +14,10 @@ class RouterMapping: RouterDelegate {
     func viewControllerFrom(routerPath: RouterPath) -> UIViewController {
         switch routerPath {
         case .vca:
-            return VCfromFrameworkA()
+//            return VCfromFrameworkA()
+            return VCABuilder.build(dependency: VCfromFrameworkADependecy(), clickAction: {
+                print("🤡👉\(1231231)👈🤡")
+            })
         case .vcb:
             return VCfromFrameworkB()
         }
