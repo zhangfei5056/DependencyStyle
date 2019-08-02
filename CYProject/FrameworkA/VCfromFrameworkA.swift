@@ -1,10 +1,14 @@
-
 import UIKit
 import Router
+
 open class VCfromFrameworkA: UIViewController {
 
-    var dependency: VCADependecyProtocol = MockVCADependency()
-    public var click: (()->Void)?
+    var dependency: VCADependecyProtocol!
+    public var click: ((String)->Void)?
+
+    open func setDependency(dependency: VCADependecyProtocol = MockVCADependency()) {
+        self.dependency = dependency
+    }
 
     open override func viewDidLoad() {
         self.view.backgroundColor = dependency.colorDependency.getBgColor()
@@ -26,7 +30,7 @@ open class VCfromFrameworkA: UIViewController {
 
     @objc func tapButton() {
         print("this is VCA")
-        click?()
+        click?("this is VCA")
         let router = Router.shared
         let vc = router.getVCFrom(routerPath: .vcb)
         self.navigationController?.pushViewController(vc, animated: true)

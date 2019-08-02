@@ -5,6 +5,7 @@ public class MockVCADependency: VCADependecyProtocol {
 }
 
 internal class MockColorDependency: ColorDependencyProtocol {
+
     public func getBgColor() -> UIColor {
         return .blue
     }
@@ -12,10 +13,13 @@ internal class MockColorDependency: ColorDependencyProtocol {
     public func getColor() -> UIColor {
         return .red
     }
+
 }
 
 internal class MockFontDependency: FontDependencyProtocol {
+
     public func getFont() -> UIFont {
         return UIFont.boldSystemFont(ofSize: 20)
     }
+
 }

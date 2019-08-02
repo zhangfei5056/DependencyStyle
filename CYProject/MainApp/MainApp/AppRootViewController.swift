@@ -26,10 +26,6 @@ class AppRootViewController: UIViewController {
     @objc func tapButton() {
         print("你点击了此按钮")
         click?()
-//      let vc = VCABuilder.build(dependency: VCfromFrameworkADependecy()) {
-//          print("🤡👉\("hello world")👈🤡")
-//      }
-
         let vc = RouterMapping.shared.viewControllerFrom(routerPath: .vca)
         self.navigationController?.pushViewController(vc, animated: true)
 
