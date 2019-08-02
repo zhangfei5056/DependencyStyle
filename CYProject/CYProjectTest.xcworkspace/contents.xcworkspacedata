@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:RouterMap/RouterMap.xcodeproj">
+      location = "group:MainApp/MainApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/yucao/Project/Github/DependencyStyle/CYProject/VCCFortTest/App.xcodeproj">
+      location = "group:RouterMap/RouterMap.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:FrameworkB/FrameworkB.xcodeproj">
