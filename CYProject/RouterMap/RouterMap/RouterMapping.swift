@@ -11,12 +11,20 @@ public class RouterMapping: RouterMapDelegate {
     }
 
     // MARK: - RouterDelegate
-    public func viewControllerFrom(routeType: RouterType) -> UIViewController {
+    public func viewControllerFrom(routeType: RouterType, denpendency: DependencyProtocol?) -> UIViewController {
         switch routeType {
         case .vca:
-            return VCfromFrameworkA()
+            if let denpendency = denpendency as? VCADependecyProtocol {
+                return VCfromFrameworkA(dependency: denpendency)
+            } else {
+                return VCfromFrameworkA()
+            }
         case .vcb:
-            return VCfromFrameworkB()
+            if let denpendency = denpendency as? VCBDependecyProtocol {
+                return VCfromFrameworkB(dependency: denpendency)
+            } else {
+                return VCfromFrameworkB()
+            }
         }
     }
 

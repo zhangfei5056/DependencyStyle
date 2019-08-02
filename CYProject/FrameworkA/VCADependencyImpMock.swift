@@ -31,7 +31,7 @@ public class MockViewCallBackDependency: ViewCallBackProtocol {
 
     public func clickActionBlock() -> ((String) -> Void)? {
         return { str in
-            print("this from callback:🤡👉\(str)👈🤡")
+            print("this from mock callback:🤡👉\(str)👈🤡")
         }
     }
 

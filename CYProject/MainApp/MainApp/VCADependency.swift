@@ -1,4 +1,5 @@
 import FrameworkA
+import Router
 class VCADependency: VCADependecyProtocol {
 
     public init() {}
@@ -26,7 +27,9 @@ class FontDependency: FontDependencyProtocol {
 class ViewCallBackImp: ViewCallBackProtocol {
     func clickActionBlock() -> ((String) -> Void)? {
         return { str in
-            print("🤡👉\(str)👈🤡")
+            print("this from real vcaIMP🤡👉\(str)👈🤡")
+            let vc = Router.shared.getVCFrom(routerPath: .vcb, denpendency: nil)
+            Router.shared.jumpTo(vc: vc)
         }
     }
 }
