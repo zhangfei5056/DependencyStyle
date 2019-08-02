@@ -1,5 +1,5 @@
 import FrameworkA
-class VCfromFrameworkADependecy: VCADependecyProtocol {
+class VCADependency: VCADependecyProtocol {
     public init() {}
     public var colorDependency: ColorDependencyProtocol = ColorDependency()
     public var fontDependency: FontDependencyProtocol = FontDependency()

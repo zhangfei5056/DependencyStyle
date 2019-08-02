@@ -10,7 +10,7 @@
 		72A5EA2422F3E619009A2345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A5EA2322F3E619009A2345 /* Assets.xcassets */; };
 		72A5EA2722F3E619009A2345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A5EA2522F3E619009A2345 /* LaunchScreen.storyboard */; };
 		72A5EA2F22F3E688009A2345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5EA2E22F3E688009A2345 /* AppDelegate.swift */; };
-		72A5EA3222F3E699009A2345 /* VCfromFrameworkADependecy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5EA3022F3E699009A2345 /* VCfromFrameworkADependecy.swift */; };
+		72A5EA3222F3E699009A2345 /* VCADependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5EA3022F3E699009A2345 /* VCADependency.swift */; };
 		72A5EA3322F3E699009A2345 /* AppRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5EA3122F3E699009A2345 /* AppRootViewController.swift */; };
 		72A5EA3622F3E6D0009A2345 /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A5EA3522F3E6D0009A2345 /* Router.framework */; };
 		72A5EA3822F3E6D0009A2345 /* RouterMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A5EA3722F3E6D0009A2345 /* RouterMap.framework */; };
@@ -22,7 +22,7 @@
 		72A5EA2622F3E619009A2345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72A5EA2822F3E619009A2345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72A5EA2E22F3E688009A2345 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72A5EA3022F3E699009A2345 /* VCfromFrameworkADependecy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCfromFrameworkADependecy.swift; sourceTree = "<group>"; };
+		72A5EA3022F3E699009A2345 /* VCADependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCADependency.swift; sourceTree = "<group>"; };
 		72A5EA3122F3E699009A2345 /* AppRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRootViewController.swift; sourceTree = "<group>"; };
 		72A5EA3522F3E6D0009A2345 /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A5EA3722F3E6D0009A2345 /* RouterMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RouterMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +63,7 @@
 			children = (
 				72A5EA2E22F3E688009A2345 /* AppDelegate.swift */,
 				72A5EA3122F3E699009A2345 /* AppRootViewController.swift */,
-				72A5EA3022F3E699009A2345 /* VCfromFrameworkADependecy.swift */,
+				72A5EA3022F3E699009A2345 /* VCADependency.swift */,
 				72A5EA2322F3E619009A2345 /* Assets.xcassets */,
 				72A5EA2522F3E619009A2345 /* LaunchScreen.storyboard */,
 				72A5EA2822F3E619009A2345 /* Info.plist */,
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A5EA2F22F3E688009A2345 /* AppDelegate.swift in Sources */,
-				72A5EA3222F3E699009A2345 /* VCfromFrameworkADependecy.swift in Sources */,
+				72A5EA3222F3E699009A2345 /* VCADependency.swift in Sources */,
 				72A5EA3322F3E699009A2345 /* AppRootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
