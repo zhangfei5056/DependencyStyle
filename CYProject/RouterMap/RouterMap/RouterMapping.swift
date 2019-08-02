@@ -14,8 +14,7 @@ public class RouterMapping: RouterMapDelegate {
     public func viewControllerFrom(routerPath: RouterPath) -> UIViewController {
         switch routerPath {
         case .vca:
-            let vca = VCfromFrameworkA()
-            return vca
+            return VCfromFrameworkA()
         case .vcb:
             return VCfromFrameworkB()
         }

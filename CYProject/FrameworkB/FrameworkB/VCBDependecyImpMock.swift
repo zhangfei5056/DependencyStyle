@@ -1,4 +1,4 @@
-public class MockVCADependency: VCADependecyProtocol {
+public class VCBDependecyImpMock: VCBDependecyProtocol {
     public init() {}
     public var colorDependency: ColorDependencyProtocol = MockColorDependency()
     public var fontDependency: FontDependencyProtocol = MockFontDependency()

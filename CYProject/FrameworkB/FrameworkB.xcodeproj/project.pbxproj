@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72A5EA3A22F42821009A2345 /* VCBDependecyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5EA3922F42821009A2345 /* VCBDependecyProtocol.swift */; };
+		72A5EA3C22F42843009A2345 /* VCBDependecyImpMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5EA3B22F42843009A2345 /* VCBDependecyImpMock.swift */; };
 		72CE720522EEE7CB0045A18C /* FrameworkB.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CE720322EEE7CB0045A18C /* FrameworkB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72CE720C22EEE7E10045A18C /* VCfromFrameworkB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CE720B22EEE7E10045A18C /* VCfromFrameworkB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72A5EA3922F42821009A2345 /* VCBDependecyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCBDependecyProtocol.swift; sourceTree = "<group>"; };
+		72A5EA3B22F42843009A2345 /* VCBDependecyImpMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCBDependecyImpMock.swift; sourceTree = "<group>"; };
 		72CE720022EEE7CB0045A18C /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE720322EEE7CB0045A18C /* FrameworkB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkB.h; sourceTree = "<group>"; };
 		72CE720422EEE7CB0045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 				72CE720322EEE7CB0045A18C /* FrameworkB.h */,
 				72CE720422EEE7CB0045A18C /* Info.plist */,
 				72CE720B22EEE7E10045A18C /* VCfromFrameworkB.swift */,
+				72A5EA3922F42821009A2345 /* VCBDependecyProtocol.swift */,
+				72A5EA3B22F42843009A2345 /* VCBDependecyImpMock.swift */,
 			);
 			path = FrameworkB;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CE720C22EEE7E10045A18C /* VCfromFrameworkB.swift in Sources */,
+				72A5EA3C22F42843009A2345 /* VCBDependecyImpMock.swift in Sources */,
+				72A5EA3A22F42821009A2345 /* VCBDependecyProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

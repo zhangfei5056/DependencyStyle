@@ -6,8 +6,13 @@ open class VCfromFrameworkA: UIViewController {
     var dependency: VCADependecyProtocol!
     public var click: ((String)->Void)?
 
-    open func setDependency(dependency: VCADependecyProtocol = MockVCADependency()) {
+    public init(dependency: VCADependecyProtocol = VCADependencyImpMock()) {
+        super.init(nibName: nil, bundle: nil)
         self.dependency = dependency
+    }
+
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
 
     open override func viewDidLoad() {

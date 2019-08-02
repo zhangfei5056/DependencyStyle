@@ -1,18 +1,26 @@
-
 import UIKit
+import Router
 
 open class VCfromFrameworkB: UIViewController {
 
-//    var dependency: VCADependecyProtocol!
-    public var click: (()->Void)?
+    var dependency: VCBDependecyProtocol!
+    public var click: ((String)->Void)?
+
+    public init(dependency: VCBDependecyProtocol = VCBDependecyImpMock()) {
+        super.init(nibName: nil, bundle: nil)
+        self.dependency = dependency
+    }
+
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
 
     open override func viewDidLoad() {
-//        self.view.backgroundColor = dependency.colorDependency.getBgColor()
-        self.view.backgroundColor = UIColor.cyan
+        self.view.backgroundColor = dependency.colorDependency.getBgColor()
         let button = UIButton()
-        button.setTitle("VCB...", for: .normal)
-        button.setTitleColor(.red, for: .normal)
-        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 22)
+        button.setTitle("VCB", for: .normal)
+        button.setTitleColor(dependency.colorDependency.getColor(), for: .normal)
+        button.titleLabel?.font = dependency.fontDependency.getFont()
         button.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(button)
         NSLayoutConstraint.activate([
@@ -27,6 +35,9 @@ open class VCfromFrameworkB: UIViewController {
 
     @objc func tapButton() {
         print("this is VCB")
-        click?()
+        click?("this is VCB")
+//        let router = Router.shared
+//        let vc = router.getVCFrom(routerPath: .vcb)
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
