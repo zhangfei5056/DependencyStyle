@@ -10,7 +10,7 @@
 		72CE706322EECD080045A18C /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CE705922EECD080045A18C /* Router.framework */; };
 		72CE706822EECD080045A18C /* CYRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CE706722EECD080045A18C /* CYRouterTests.swift */; };
 		72CE706A22EECD080045A18C /* CYRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CE705C22EECD080045A18C /* CYRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72F51C7E22F2B70900A59CCC /* RouterPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F51C7D22F2B70900A59CCC /* RouterPath.swift */; };
+		72F51C7E22F2B70900A59CCC /* RouterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F51C7D22F2B70900A59CCC /* RouterType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 		72CE706922EECD080045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72CE721C22EEEAAC0045A18C /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE721E22EEEAAE0045A18C /* FrameworkB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72F51C7D22F2B70900A59CCC /* RouterPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterPath.swift; sourceTree = "<group>"; };
+		72F51C7D22F2B70900A59CCC /* RouterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		72CE705B22EECD080045A18C /* CYRouter */ = {
 			isa = PBXGroup;
 			children = (
-				72F51C7D22F2B70900A59CCC /* RouterPath.swift */,
+				72F51C7D22F2B70900A59CCC /* RouterType.swift */,
 				72CE705C22EECD080045A18C /* CYRouter.h */,
 				72CE705D22EECD080045A18C /* Info.plist */,
 			);
@@ -210,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F51C7E22F2B70900A59CCC /* RouterPath.swift in Sources */,
+				72F51C7E22F2B70900A59CCC /* RouterType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

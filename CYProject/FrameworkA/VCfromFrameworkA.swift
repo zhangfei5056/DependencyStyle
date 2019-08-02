@@ -35,9 +35,9 @@ open class VCfromFrameworkA: UIViewController {
 
     @objc func tapButton() {
         print("this is VCA")
+        click = dependency.viewCallbackDependency.clickActionBlock()
         click?("this is VCA")
-        let router = Router.shared
-        let vc = router.getVCFrom(routerPath: .vcb)
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = Router.shared.getVCFrom(routerPath: .vcb)
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

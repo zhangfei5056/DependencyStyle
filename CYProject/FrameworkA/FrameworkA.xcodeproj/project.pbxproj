@@ -18,20 +18,9 @@
 		72F8379222F2DB710026EA4B /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F8379122F2DB710026EA4B /* Router.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		72A5EA4122F42A78009A2345 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72A5EA3D22F42A78009A2345 /* MainApp.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 72A5EA1922F3E619009A2345;
-			remoteInfo = MainApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		72A331E522F180BD0067B221 /* VCADependencyImpMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCADependencyImpMock.swift; sourceTree = "<group>"; };
 		72A331E722F1845B0067B221 /* VCADependecyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCADependecyProtocol.swift; sourceTree = "<group>"; };
-		72A5EA3D22F42A78009A2345 /* MainApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MainApp.xcodeproj; path = ../MainApp/MainApp.xcodeproj; sourceTree = "<group>"; };
 		72CE71D122EEE6700045A18C /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE71D422EEE6700045A18C /* FrameworkA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkA.h; sourceTree = "<group>"; };
 		72CE71D522EEE6700045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,18 +54,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		72A5EA3E22F42A78009A2345 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				72A5EA4222F42A78009A2345 /* MainApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		72CE71C722EEE6700045A18C = {
 			isa = PBXGroup;
 			children = (
-				72A5EA3D22F42A78009A2345 /* MainApp.xcodeproj */,
 				72A331E722F1845B0067B221 /* VCADependecyProtocol.swift */,
 				72A331E522F180BD0067B221 /* VCADependencyImpMock.swift */,
 				72CE71DC22EEE6920045A18C /* VCfromFrameworkA.swift */,
@@ -204,12 +184,6 @@
 			mainGroup = 72CE71C722EEE6700045A18C;
 			productRefGroup = 72CE71D222EEE6700045A18C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 72A5EA3E22F42A78009A2345 /* Products */;
-					ProjectRef = 72A5EA3D22F42A78009A2345 /* MainApp.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				72CE71D022EEE6700045A18C /* FrameworkA */,
@@ -217,16 +191,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		72A5EA4222F42A78009A2345 /* MainApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = MainApp.app;
-			remoteRef = 72A5EA4122F42A78009A2345 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		72CE71CF22EEE6700045A18C /* Resources */ = {

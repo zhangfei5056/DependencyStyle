@@ -1,12 +1,9 @@
 import UIKit
 import RouterMap
+
 class AppRootViewController: UIViewController {
 
-    //    var dependency: VCADependecyProtocol!
-    public var click: (()->Void)?
-
     open override func viewDidLoad() {
-        //        self.view.backgroundColor = dependency.colorDependency.getBgColor()
         self.view.backgroundColor = UIColor.white
         let button = UIButton()
         button.setTitle("vcRoot", for: .normal)
@@ -25,10 +22,8 @@ class AppRootViewController: UIViewController {
 
     @objc func tapButton() {
         print("你点击了此按钮")
-        click?()
-        let vc = RouterMapping.shared.viewControllerFrom(routerPath: .vca)
+        let vc = RouterMapping.shared.viewControllerFrom(routeType: .vca)
         self.navigationController?.pushViewController(vc, animated: true)
-
     }
 
 }

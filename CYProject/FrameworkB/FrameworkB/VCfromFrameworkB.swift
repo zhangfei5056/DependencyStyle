@@ -36,8 +36,5 @@ open class VCfromFrameworkB: UIViewController {
     @objc func tapButton() {
         print("this is VCB")
         click?("this is VCB")
-//        let router = Router.shared
-//        let vc = router.getVCFrom(routerPath: .vcb)
-//        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

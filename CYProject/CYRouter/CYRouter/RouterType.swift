@@ -1,10 +1,10 @@
 import UIKit
 
 public protocol RouterMapDelegate: class {
-    func viewControllerFrom(routerPath: RouterPath) -> UIViewController
+    func viewControllerFrom(routeType: RouterType) -> UIViewController
 }
 
-public enum RouterPath {
+public enum RouterType {
     case vca
     case vcb
 }
@@ -15,8 +15,8 @@ public class Router {
 
     public weak var delegate: RouterMapDelegate?
 
-    public func getVCFrom(routerPath: RouterPath) -> UIViewController {
-        if let vc = delegate?.viewControllerFrom(routerPath: routerPath) {
+    public func getVCFrom(routerPath: RouterType) -> UIViewController {
+        if let vc = delegate?.viewControllerFrom(routeType: routerPath) {
             return vc
         } else {
             assertionFailure("you do not have the fuxk vc")
