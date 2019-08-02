@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		72A331E622F180BD0067B221 /* VCADependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A331E522F180BD0067B221 /* VCADependency.swift */; };
 		72A331E822F1845B0067B221 /* VCADependecyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A331E722F1845B0067B221 /* VCADependecyProtocol.swift */; };
-		72A331EA22F184800067B221 /* VCABuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A331E922F184800067B221 /* VCABuilder.swift */; };
 		72CE71D622EEE6700045A18C /* FrameworkA.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CE71D422EEE6700045A18C /* FrameworkA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72CE71DD22EEE6920045A18C /* VCfromFrameworkA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CE71DC22EEE6920045A18C /* VCfromFrameworkA.swift */; };
 		72CE71E722EEE75A0045A18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CE71E622EEE75A0045A18C /* AppDelegate.swift */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		72A331E522F180BD0067B221 /* VCADependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCADependency.swift; sourceTree = "<group>"; };
 		72A331E722F1845B0067B221 /* VCADependecyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCADependecyProtocol.swift; sourceTree = "<group>"; };
-		72A331E922F184800067B221 /* VCABuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCABuilder.swift; sourceTree = "<group>"; };
 		72CE71D122EEE6700045A18C /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE71D422EEE6700045A18C /* FrameworkA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkA.h; sourceTree = "<group>"; };
 		72CE71D522EEE6700045A18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 		72CE71C722EEE6700045A18C = {
 			isa = PBXGroup;
 			children = (
-				72A331E922F184800067B221 /* VCABuilder.swift */,
 				72A331E722F1845B0067B221 /* VCADependecyProtocol.swift */,
 				72A331E522F180BD0067B221 /* VCADependency.swift */,
 				72CE71DC22EEE6920045A18C /* VCfromFrameworkA.swift */,
@@ -220,7 +217,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CE71DD22EEE6920045A18C /* VCfromFrameworkA.swift in Sources */,
-				72A331EA22F184800067B221 /* VCABuilder.swift in Sources */,
 				72A331E822F1845B0067B221 /* VCADependecyProtocol.swift in Sources */,
 				72A331E622F180BD0067B221 /* VCADependency.swift in Sources */,
 			);

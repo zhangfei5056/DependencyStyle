@@ -3,7 +3,7 @@ import UIKit
 import Router
 open class VCfromFrameworkA: UIViewController {
 
-    var dependency: VCADependecyProtocol = MockVCfromFrameworkADependecy()
+    var dependency: VCADependecyProtocol = MockVCADependency()
     public var click: (()->Void)?
 
     open override func viewDidLoad() {

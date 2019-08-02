@@ -14,7 +14,7 @@ class AppRootViewController: UIViewController {
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 22)
         button.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(button)
-        NSLayo utConstraint.activate([
+        NSLayoutConstraint.activate([
             button.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 120),
             button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             button.topAnchor.constraint(equalTo: view.topAnchor, constant: 120),
