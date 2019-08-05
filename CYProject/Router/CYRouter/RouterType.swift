@@ -1,8 +1,6 @@
 import UIKit
 
-public protocol DependencyProtocol: class {
-
-}
+public protocol DependencyProtocol {}
 
 public protocol RouterMapDelegate: class {
     func viewControllerFrom(routeType: RouterType, denpendency: DependencyProtocol?) -> UIViewController
@@ -14,9 +12,9 @@ public enum RouterType {
 }
 
 public class Router {
+
     public static let shared = Router()
     private init() {}
-
     public weak var delegate: RouterMapDelegate?
 
     public func getVCFrom(routerPath: RouterType, denpendency: DependencyProtocol?) -> UIViewController {

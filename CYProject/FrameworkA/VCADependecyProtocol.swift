@@ -1,4 +1,5 @@
 import Router
+
 public protocol ColorDependencyProtocol {
     func getColor() -> UIColor
     func getBgColor() -> UIColor

@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Router/Router.xcodeproj">
+      location = "group:FrameworkA/../MainApp/MainApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:FrameworkA/../MainApp/MainApp.xcodeproj">
+      location = "group:Router/Router.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:FrameworkA/FrameworkA.xcodeproj">

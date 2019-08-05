@@ -1,5 +1,4 @@
 import UIKit
-import Router
 
 open class VCfromFrameworkA: UIViewController {
 
@@ -17,6 +16,22 @@ open class VCfromFrameworkA: UIViewController {
 
     open override func viewDidLoad() {
         self.view.backgroundColor = dependency.colorDependency.getBgColor()
+        setupButton()
+    }
+
+    @objc func tapButton() {
+        print("this is VCA")
+        guard click != nil else {
+            click = dependency.viewCallbackDependency.clickActionBlock()
+            click!("this is VCA")
+            return
+        }
+        click!("this is VCA")
+    }
+}
+
+private extension VCfromFrameworkA {
+    func setupButton() {
         let button = UIButton()
         button.setTitle("VCA", for: .normal)
         button.setTitleColor(dependency.colorDependency.getColor(), for: .normal)
@@ -28,16 +43,7 @@ open class VCfromFrameworkA: UIViewController {
             button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             button.topAnchor.constraint(equalTo: view.topAnchor, constant: 120),
             button.heightAnchor.constraint(equalToConstant: 40),
-        ])
-
+            ])
         button.addTarget(self, action: #selector(tapButton), for: .touchUpInside)
-    }
-
-    @objc func tapButton() {
-        print("this is VCA")
-        click = dependency.viewCallbackDependency.clickActionBlock()
-        click?("this is VCA")
-//        let vc = Router.shared.getVCFrom(routerPath: .vcb)
-//        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
